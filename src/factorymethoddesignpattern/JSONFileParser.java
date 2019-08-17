@@ -6,7 +6,7 @@ public class JSONFileParser implements FileParser {
     
     public String parseFile(String originPath) {
        
-        return " ";
+        return " msg from json";
         
     }
     
