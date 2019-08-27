@@ -1,0 +1,6 @@
+Type: PersonalInfo
+------------------
+FirstName: Aseel
+LastName: Arafeh
+PhoneNumber: 0598123456
+MailAddress: arafehaseel@gmail.com

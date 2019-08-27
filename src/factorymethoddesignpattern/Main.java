@@ -1,12 +1,13 @@
 
 package factorymethoddesignpattern;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
             
         Scanner scn = new Scanner(System.in);
         String originPath = "";
@@ -48,7 +49,7 @@ public class Main {
                         msg = " Error in extension, you missed it or wrote something neither XML nor JSON ";
                     }
                     
-                    System.out.println(msg);
+                    System.out.println("\n" + msg + "\n");
                     break;
                     
                 }
@@ -66,9 +67,7 @@ public class Main {
                 }
             }
                              
-        }
-        
-        while (true);   
+        } while (true);   
         
     }
     
